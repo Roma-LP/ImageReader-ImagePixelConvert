@@ -117,6 +117,8 @@
             this.Controls.Add(this.pictureBox);
             this.Name = "ImagePixelForm";
             this.Text = "ImagePixelForm";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ImagePixelForm_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ImagePixelForm_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TRB_SizePixel)).EndInit();
             this.ResumeLayout(false);

@@ -120,7 +120,8 @@ namespace ImageReader
 
         private void buttonExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            //Application.Exit();
+            this.Close();
         }
 
         private void buttonChangePixels_Click(object sender, EventArgs e)
