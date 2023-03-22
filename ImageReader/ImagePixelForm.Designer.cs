@@ -35,6 +35,7 @@
             this.BT_ToPixels = new System.Windows.Forms.Button();
             this.TRB_SizePixel = new System.Windows.Forms.TrackBar();
             this.label_TRBvalue = new System.Windows.Forms.Label();
+            this.labelPixelSize = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TRB_SizePixel)).BeginInit();
             this.SuspendLayout();
@@ -75,7 +76,7 @@
             // 
             // BT_ToPixels
             // 
-            this.BT_ToPixels.Location = new System.Drawing.Point(617, 101);
+            this.BT_ToPixels.Location = new System.Drawing.Point(617, 106);
             this.BT_ToPixels.Name = "BT_ToPixels";
             this.BT_ToPixels.Size = new System.Drawing.Size(171, 41);
             this.BT_ToPixels.TabIndex = 4;
@@ -104,11 +105,21 @@
             this.label_TRBvalue.TabIndex = 6;
             this.label_TRBvalue.Text = "label1";
             // 
+            // labelPixelSize
+            // 
+            this.labelPixelSize.AutoSize = true;
+            this.labelPixelSize.Location = new System.Drawing.Point(623, 238);
+            this.labelPixelSize.Name = "labelPixelSize";
+            this.labelPixelSize.Size = new System.Drawing.Size(67, 20);
+            this.labelPixelSize.TabIndex = 7;
+            this.labelPixelSize.Text = "PixelSize";
+            // 
             // ImagePixelForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelPixelSize);
             this.Controls.Add(this.label_TRBvalue);
             this.Controls.Add(this.TRB_SizePixel);
             this.Controls.Add(this.BT_ToPixels);
@@ -135,5 +146,6 @@
         private Button BT_ToPixels;
         private TrackBar TRB_SizePixel;
         private Label label_TRBvalue;
+        private Label labelPixelSize;
     }
 }
