@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oTS5eirNrZlNi/um2o4dhriO9ppGESX6x+OMe+H8Bne6OwHvw9ADuo1+vmWwWGRIUVO+fBnjjxtF9+wpZVydwg==",
+  "dgSpecHash": "a4SRxURHnBdW6+KqQ8VfoMmXn1TMpVZh0TTK59ay3kzdUY1ll1L3vr2XqFJ4PH4ZNfqBox5gzjrq/WbzNW681g==",
   "success": true,
-  "projectFilePath": "C:\\БНТУ\\КГ_Анцыпов_Никита_Александрович\\ImageReader\\ImageReader\\ImageReader.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\БНТУ\\МИАКГ_Анцыпов\\ImageReader-ImagePixelConvert\\ImageReader\\ImageReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\dynamiclanguageruntime\\1.3.3\\dynamiclanguageruntime.1.3.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\ironpython\\3.4.0\\ironpython.3.4.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\mono.unix\\7.1.0-final.1.21458.1\\mono.unix.7.1.0-final.1.21458.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

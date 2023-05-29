@@ -28,5 +28,11 @@ namespace ImageReader
             ImagePixelForm imagePixelForm = new ImagePixelForm();
             imagePixelForm.ShowDialog();
         }
+
+        private void BT_ThirdApp_Click(object sender, EventArgs e)
+        {
+            Canvas imagePixelForm = new Canvas();
+            imagePixelForm.ShowDialog();
+        }
     }
 }
